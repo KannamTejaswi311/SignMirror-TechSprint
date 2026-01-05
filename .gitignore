@@ -1,0 +1,60 @@
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+
+# =========================
+# Python Cache / Artifacts
+# =========================
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Audio Files
+# =========================
+*.wav
+*.mp3
+*.ogg
+
+# =========================
+# Voice → ISL Project Data
+# =========================
+voice_to_isl/memA_dataset/
+voice_to_isl/knn_artifacts/
+voice_to_isl/animations/
+voice_to_isl/temp_audio.wav
+voice_to_isl/temp_mic.wav
+
+# =========================
+# ISL → Voice Cache
+# =========================
+isl_to_voice/__pycache__/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+.streamlit/secrets.toml
+
+# =========================
+# Firebase
+# =========================
+firebase-adminsdk-*.json
+
+# =========================
+# IDE / OS Files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temporary Files
+# =========================
+*.log
+*.tmp
